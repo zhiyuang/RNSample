@@ -77,7 +77,7 @@ const App: () => Node = () => {
         }
       />
 
-      <View style={{width: 500, height: 500}}>
+      {/* <View style={{width: 500, height: 500}}>
         <MapView style={{flex: 1}} region={{
             latitude: 37.48,
             longitude: -122.16,
@@ -85,7 +85,7 @@ const App: () => Node = () => {
             longitudeDelta: 0.1,
           }}
         />
-      </View>
+      </View> */}
     </SafeAreaView>
   );
 };
